@@ -1,0 +1,15 @@
+[
+    {
+        "nombre": "Burbón Aleman",
+        "imagen": "Imagenes/bebida1.jpg",
+        "precio": 1700,
+        "stock": 20
+    },
+    {
+        "nombre": "Watermelon rocks",
+        "imagen": "Imagenes/bebida2.jpg",
+        "precio": 1500,
+        "stock": 15
+    }
+
+]

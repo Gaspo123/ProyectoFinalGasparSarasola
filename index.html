@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriniBulden | Tienda de Bebidas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Agregamos Font Awesome para los íconos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header con navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="https://web.whatsapp.com/+5492215119408">Contacto</a></li>
+            </ul>
+            <form action="#" method="get">
+                <input type="text" name="search" placeholder="Buscar bebida">
+                <button onclick="buscar()">Buscar</button>
+            </form>
+            <li><a href="Carrito.html" id="carrito"><i class="fas fa-shopping-cart cart-icon"></i></a></li>
+        </nav>
+    </header>
+
+    <!-- Sección de productos -->
+    <section>
+        <div class="producto">
+            <img src="Imagenes/bebida 1.jpg" alt="Bebida 1">
+            <p>Burbón Aleman</p>
+            <p>Precio: $1.700</p>            
+            <p>Stock: 20</p>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/bebida 2.jpg" alt="Bebida 2">
+            <p>Watermelon rocks</p>
+            <p>Precio: $1.500</p>
+            <p>Stock: 15</p>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/bebida 3.jpg" alt="Bebida 3">
+            <p>LimonHigo</p>
+            <p>Precio: $2.600</p>
+            <p>Stock: 30</p>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/bebida 4.jpg" alt="Bebida 4">
+            <p>PomeGin</p>
+            <p>Precio: $2.000</p>
+            <p>Stock: 17</p>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/bebida 5.jpg" alt="bebida 5">
+            <p>Whisky Angels Envy</p>
+            <p>Precio: $2.799</p>
+            <p>Stock: 50</p>
+        </div>
+    </section>
+    <div class="carrito-overlay" id="carritoOverlay">
+      <div class="carrito-menu">
+          <span class="cerrar" id="cerrarCarrito">&times;</span>
+          <h2>Carrito de Compras</h2>
+          <ul id="listaPedidos">
+              <!-- Aquí se agregarán los elementos del carrito dinámicamente -->
+          </ul>
+          <h3>Realizar Pedido</h3>
+          <form id="formularioPedido">
+              <input type="text" id="nombre" placeholder="Nombre" required>
+              <input type="email" id="email" placeholder="Correo Electrónico" required>
+              <input type="tel" id="telefono" placeholder="Teléfono" required>
+              <input type="text" id="direccion" placeholder="Dirección de Entrega" required>
+              <button class="pedido" type="submit">Realizar Pedido</button>
+          </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <a href="facebook/BuldenBebidas"><img src="Imagenes/facebook (1).png" alt="Facebook"></a>
+            <a href="Instaram.gram/BuldenBebidas"><img src="Imagenes/social.png" alt="Instagram"></a>
+            <a href="https://web.whatsapp.com/+5492215119408"><img src="Imagenes/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+        <h2>Derechos reservados - Gaspar Sarasola</h2>
+    </footer>
+</body>
+</html>
+
